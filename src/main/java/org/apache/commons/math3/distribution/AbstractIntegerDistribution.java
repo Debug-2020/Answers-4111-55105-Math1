@@ -190,6 +190,7 @@ public abstract class AbstractIntegerDistribution implements IntegerDistribution
      * inversion method</a>.
      */
     public int sample() {
+    	
         return inverseCumulativeProbability(random.nextDouble());
     }
 
